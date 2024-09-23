@@ -27,7 +27,7 @@ function ContactMe() {
     <div className='bg-gradient-to-b from-[#F5E9FF] to-white md:pt-[180px] pt-[90px] flex flex-col'>
         <div>
         <Marquee className=''>
-            <div className='flex md:gap-4 md:h-full'>
+            <div className='flex md:gap-4 md:h-full gap-2'>
             <div className="twitter-embed"  dangerouslySetInnerHTML={{
 
             __html:`<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What are you learning today? <br>I&#39;ve picked up dynamic programming after a short break. Do you have any tips or advice on how to get started, or any tricks to share? <a href="https://t.co/s1aMHAQ8F7">pic.twitter.com/s1aMHAQ8F7</a></p>&mdash; Priyanka Chettri (@Pryancawithan_i) <a href="https://twitter.com/Pryancawithan_i/status/1835300109044625458?ref_src=twsrc%5Etfw">September 15, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>`
