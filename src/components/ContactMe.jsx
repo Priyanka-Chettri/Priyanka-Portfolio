@@ -27,7 +27,7 @@ function ContactMe() {
     <div className='bg-gradient-to-b w-full from-[#F5E9FF] to-white md:pt-[180px] pt-[90px] flex flex-col'>
         
         <Marquee className=''>
-          <div className='w-full md:flex flex md:gap-6 gap-[500px]'>
+          <div className='w-full md:flex flex md:gap-6 gap-[400px]'>
 
             <div className="twitter-embed"  dangerouslySetInnerHTML={{
 
