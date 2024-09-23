@@ -24,7 +24,7 @@ function ContactMe() {
       
   return (
     
-    <div className='bg-gradient-to-b from-[#F5E9FF] to-white md:pt-[180px] pt-[90px] flex flex-col'>
+    <div className='bg-gradient-to-b w-full from-[#F5E9FF] to-white md:pt-[180px] pt-[90px] flex flex-col'>
         
         <Marquee className=''>
            <div className='w-full flex gap-6'>
