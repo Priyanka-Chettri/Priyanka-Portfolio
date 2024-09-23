@@ -27,14 +27,14 @@ function ContactMe() {
     <div className='bg-gradient-to-b w-full from-[#F5E9FF] to-white md:pt-[180px] pt-[90px] flex flex-col'>
         
         <Marquee className=''>
-           <div className='w-full flex gap-6'>
+          <div className='w-full md:flex flex flex-wrap gap-6'>
 
             <div className="twitter-embed"  dangerouslySetInnerHTML={{
 
             __html:`<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What are you learning today? <br>I&#39;ve picked up dynamic programming after a short break. Do you have any tips or advice on how to get started, or any tricks to share? <a href="https://t.co/s1aMHAQ8F7">pic.twitter.com/s1aMHAQ8F7</a></p>&mdash; Priyanka Chettri (@Pryancawithan_i) <a href="https://twitter.com/Pryancawithan_i/status/1835300109044625458?ref_src=twsrc%5Etfw">September 15, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>`
             }}>
 
-          </div> 
+             </div> 
             <div className="twitter-embed" dangerouslySetInnerHTML={{
 
             __html:`<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Excited to share that I’m joining <a href="https://twitter.com/hashtag/SheFiSeason12?src=hash&amp;ref_src=twsrc%5Etfw">#SheFiSeason12</a> as a SheFi Scholar! 🚀 Can’t wait to venture into Web3 with a dynamic community that lives by the belief, &quot;The Frontier Is Feminine.&quot;<br>Thank you <a href="https://twitter.com/Celo?ref_src=twsrc%5Etfw">@celo</a> <a href="https://twitter.com/shefiorg?ref_src=twsrc%5Etfw">@shefiorg</a> <br>I’ll be sharing my journey along the way. Stay tuned ! <a href="https://t.co/JfYHGE0VxK">pic.twitter.com/JfYHGE0VxK</a></p>&mdash; Priyanka Chettri (@Pryancawithan_i) <a href="https://twitter.com/Pryancawithan_i/status/1834511599048040736?ref_src=twsrc%5Etfw">September 13, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>`
@@ -54,9 +54,9 @@ function ContactMe() {
 
         __html:`<blockquote class="twitter-tweet"><p lang="en" dir="ltr">💡𝐏𝐫𝐨 𝐓𝐢𝐩: Make your UI elements pop with Tailwind CSS! Use 𝐡𝐨𝐯𝐞𝐫, 𝐟𝐨𝐜𝐮𝐬, and 𝐚𝐜𝐭𝐢𝐯𝐞 variants to enhance user experience and engagement. Your designs will thank you!<br><br>A thread 🧵 <a href="https://t.co/Tj8tWN5cHF">pic.twitter.com/Tj8tWN5cHF</a></p>&mdash; Priyanka Chettri (@Pryancawithan_i) <a href="https://twitter.com/Pryancawithan_i/status/1795352605264372152?ref_src=twsrc%5Etfw">May 28, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>`
         }}>
-           </div>
-        
       </div>
+        
+          </div>
          
           
         
