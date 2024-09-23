@@ -24,18 +24,18 @@ function Experience() {
 ]
   return (
     <div className='bg-gradient-to-b from-[#F5E9FF] to-[#e6ecfd] relative'>
-        <p className='text-[41px] text-center pt-20 mb-5 font-bold '>My Journey So Far</p>
-        <div className='flex gap-12'>
-          <div className='bg-[#8a6af0] h-[900px] w-[3px] ml-[300px] text-[#8a6af0]'>
+        <p className='md:text-[41px] text-[25px] text-center pt-20 mb-5 font-bold '>My Journey So Far</p>
+        <div className='flex md:gap-12 gap-5'>
+          <div className='bg-[#8a6af0] md:h-[900px] md:w-[3px] md:ml-[300px] ml-[40px] text-[#8a6af0] h-[980px] w-[3px]'>
            .
           </div>
-          <div className=' mt-[100px] flex flex-col gap-[100px]'>
+          <div className=' md:mt-[100px] mt-[30px] flex flex-col md:gap-[100px] gap-10'>
           <SingleExp CompanyName="ADP" Position="Member Technical" Period="Oct 2023-Present" work={expADP} logo={ADP}/>  
-          <img src={dot} className='absolute top-[290px] left-[288px] z-20'></img> 
-          <SingleExp CompanyName="CRUV" Position="Flutter Intern"  Period="Oct 2023-Present" work={expCRUV} logo={CRUV}/>  
-          <img src={dot} className='absolute top-[610px] left-[288px] z-20'></img> 
-          <SingleExp CompanyName="SIH" Position="Hackathon Winner" Period="Feb 2022-Apr 2022" work={expSIH} logo={SIH}/>  
-          <img src={dot} className='absolute top-[910px] left-[288px] z-20'></img> 
+          <img src={dot} className='absolute md:top-[290px] md:left-[293px] top-[180px] left-[34px] w-[15px] h-[15px] z-20'></img> 
+          <SingleExp CompanyName="CRUV" Position="Flutter Intern"  Period="Feb 2022-Apr 2022" work={expCRUV} logo={CRUV}/>  
+          <img src={dot} className='absolute md:top-[610px] md:left-[293px] top-[520px] left-[34px] w-[15px] h-[15px] z-20'></img> 
+          <SingleExp CompanyName="SIH" Position="Hackathon Winner" Period="Mar 2022- Aug 2022" work={expSIH} logo={SIH}/>  
+          <img src={dot} className='absolute md:top-[910px] md:left-[293px] top-[800px] left-[34px] w-[15px] h-[15px] z-20'></img> 
           </div>
         </div>
          

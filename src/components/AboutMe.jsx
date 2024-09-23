@@ -23,12 +23,12 @@ function AboutMe() {
   return (
     <>
     <div className=" bg-gradient-to-b from-white to-[#e6ecfd]" >
-      <div className='flex p-24'>
+      <div className='md:flex md:flex-row md:p-24 flex flex-col p-24'>
        
-        <img src={Profile2} className="h-[379px] w[376px] p-5 "></img>
+        <img src={Profile2} className="md:h-[379px] md:w-[376px] md:p-5 p-5 object-contain w-full h-full"></img>
         
-      <div className="flex flex-col  items-center justify-center w-full">
-            <p className='font-extrabold text-[45px]'>
+      <div className="flex flex-col items-center justify-center w-full">
+            <p className='font-extrabold md:text-[45px] text-[25px] text-center'>
                 Hi, I am Priyanka ✋!
             </p>
             <div>
@@ -36,7 +36,7 @@ function AboutMe() {
             <TypewriterEffectSmooth words={words}/>
             </div>
             
-            <p className='text-2xl text-center'>I have a knack for problem-solving and building products. Loves tackling challenges with a smile!</p> 
+            <p className='md:text-2xl text-xl text-center'>I have a knack for problem-solving and building products. Loves tackling challenges with a smile!</p> 
             </div> 
         </div>
       </div>

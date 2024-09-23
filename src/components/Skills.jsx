@@ -13,10 +13,10 @@ import cplusplus from "../assets/cplusplus.png"
 
 function Skills() {
   return (
-<div className='bg-gradient-to-b from-[#e6ecfc] to-[#F5E9FF] text-[120px] ' id="skills" >
-    <p className='text-[41px] text-center pt-15 mb-5 font-bold'>Skills That Make Things Happen.</p>
-    <Marquee className='pb-10'>
-    <div className='flex gap-20 align-baseline'>
+<div className='bg-gradient-to-b from-[#e6ecfc] to-[#F5E9FF] ' id="skills" >
+    <p className='md:text-[41px] text-[25px] text-center pt-15 mb-5 font-bold'>Skills That Make Things Happen.</p>
+    <Marquee className='md:pb-10'>
+    <div className='flex md:gap-20 gap-10 align-baseline'>
    <img src={java} className='w-[73px] h-[97px]'></img>
    <img src={tailWind} className='w-[73px] h-[97x] pt-10'></img>
    <img src={javaScript} className='w-[73px] h-[97x] pt-10'></img>

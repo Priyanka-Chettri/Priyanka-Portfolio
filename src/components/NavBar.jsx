@@ -3,7 +3,7 @@ import React from 'react'
 function NavBar() {
   return (
     <>
-    <div className="flex gap-20 bg-[#bdaaf0] mt-6 py-3 px-10 rounded-full w-fit text-white shadow-xl">
+    <div className="flex py-3 px-2 gap-3 text-[12px] md:gap-20 bg-[#bdaaf0] mt-6 md:py-3 md:px-10 md:text-[18px] rounded-full w-fit text-white shadow-xl">
      <a href="#aboutme">About Me</a>
      <a href="#skills">Skills</a>
      <a href="#exp">Experience</a>
