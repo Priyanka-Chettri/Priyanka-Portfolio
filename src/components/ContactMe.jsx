@@ -25,9 +25,10 @@ function ContactMe() {
   return (
     
     <div className='bg-gradient-to-b from-[#F5E9FF] to-white md:pt-[180px] pt-[90px] flex flex-col'>
-        <div>
+        
         <Marquee className=''>
-            <div className='flex md:gap-4 h-full w-full gap-2'>
+           <div className='w-full flex gap-6'>
+
             <div className="twitter-embed"  dangerouslySetInnerHTML={{
 
             __html:`<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What are you learning today? <br>I&#39;ve picked up dynamic programming after a short break. Do you have any tips or advice on how to get started, or any tricks to share? <a href="https://t.co/s1aMHAQ8F7">pic.twitter.com/s1aMHAQ8F7</a></p>&mdash; Priyanka Chettri (@Pryancawithan_i) <a href="https://twitter.com/Pryancawithan_i/status/1835300109044625458?ref_src=twsrc%5Etfw">September 15, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>`
@@ -53,13 +54,14 @@ function ContactMe() {
 
         __html:`<blockquote class="twitter-tweet"><p lang="en" dir="ltr">💡𝐏𝐫𝐨 𝐓𝐢𝐩: Make your UI elements pop with Tailwind CSS! Use 𝐡𝐨𝐯𝐞𝐫, 𝐟𝐨𝐜𝐮𝐬, and 𝐚𝐜𝐭𝐢𝐯𝐞 variants to enhance user experience and engagement. Your designs will thank you!<br><br>A thread 🧵 <a href="https://t.co/Tj8tWN5cHF">pic.twitter.com/Tj8tWN5cHF</a></p>&mdash; Priyanka Chettri (@Pryancawithan_i) <a href="https://twitter.com/Pryancawithan_i/status/1795352605264372152?ref_src=twsrc%5Etfw">May 28, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>`
         }}>
-        </div> 
+           </div>
+        
       </div>
          
           
         
       </Marquee>
-        </div>
+       
         <div className='flex flex-col items-center justify-center mt-10'>
             <p className='md:text-[33px] text-[20px]'>
             Lets Keep in Touch!
